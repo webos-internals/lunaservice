@@ -1,14 +1,67 @@
-This directory contains open source clean room designed headers for
-Luna as required to recompile the open source libraries and tools that
-Palm ships with the Palm Pre and other WebOS devices.
+From: Opensourcequestions
+Sent: Thursday, September 10, 2009 5:48 AM
+To: Greg
+Cc: Opensourcequestions
+Subject: RE: Header Files
 
-All information added to these headers files must be directly
-generated from information contained in other open source files, or
-through reverse engineering of publicly available information.
+Hello Greg,
 
-Each individual piece of information must be annotated with the source
-of the information, to ensure that the heritage of the information in
-the file does not contain any Palm proprietary information or infringe
-on any Palm copyright.  Please place these annotations inline in the
-code comments.  Any code added without such annotations will be
-removed immediately.
+We attach a zip file that contains 2 header files: lunaservice.h and lunaservice-errors.h.
+
+purple.h is available from the libpurple package available from
+http://palm.cdnetworks.net/opensource/1.1.0/libpurple-1.0.tar.bz2
+
+Furthermore, there are references to json.h and json_utils.h which can
+be downloaded as part of the json-c from
+http://oss.metaparadigm.com/json-c/.
+
+Please note that libpurple-adapter is licensed under LGPL v 2.1.
+
+Thank you for your interest in the Palm Pre and the webOS.
+
+We wish you the best of luck.
+
+Open Source Team
+
+From: Greg [mailto:greg_roll@hotmail.com] 
+Sent: Tuesday, September 15, 2009 4:10 AM
+To: Opensourcequestions
+Subject: Source distirbution questions
+
+Hello again,
+ 
+Thank you so all your help over the last week. I have now successfully
+completed the project I was working on.
+ 
+I have a concern about the source code provided. libpurple-adapter is
+open source yet im told the header files provided are not to be
+distributed.  This will severely slow down development of future
+projects as others could not easily contribute making better products
+for webos.
+ 
+Also Section 2 of LGPL states "For a library, complete source code
+means all the source code for all modules it contains, plus any
+associated interface definition files, plus the scripts used to
+control compilation and installation of the library". Wouldn't the
+header files come under this?
+ 
+Obviously I don't want to get your section or Palm offside as I would
+like to work with you in creating a better platform.
+ 
+Thanks once again,
+Greg
+
+From: Opensourcequestions
+Sent: Wednesday, September 16, 2009 6:46 AM
+To: Greg
+Cc: Opensourcequestions
+Subject: RE: Source distirbution questions
+
+Hello Greg,
+ 
+We confirmed it with Legal and these header files are licensed under LGPL v. 2.1.
+ 
+Thank you for your interest in the Palm Pre and the webOS.
+ 
+All the best,
+Open Source Team
