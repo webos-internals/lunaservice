@@ -1,0 +1,14 @@
+This directory contains open source clean room designed headers for
+Luna as required to recompile the open source libraries and tools that
+Palm ships with the Palm Pre and other WebOS devices.
+
+All information added to these headers files must be directly
+generated from information contained in other open source files, or
+through reverse engineering of publicly available information.
+
+Each individual piece of information must be annotated with the source
+of the information, to ensure that the heritage of the information in
+the file does not contain any Palm proprietary information or infringe
+on any Palm copyright.  Please place these annotations inline in the
+code comments.  Any code added without such annotations will be
+removed immediately.
