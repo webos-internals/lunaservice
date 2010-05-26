@@ -1,4 +1,4 @@
-INCLUDES	=	-I. -I${STAGING_DIR}usr/lib/glib-2.0/include -I${STAGING_DIR}usr/include/glib-2.0 -I${STAGING_DIR}usr/include
+INCLUDES	=	-I. -I$(ROOT)usr/lib/glib-2.0/include -I$(ROOT)usr/include/glib-2.0 -I$(ROOT)usr/include
 					
 CFLAGS		=	-Os
 				
