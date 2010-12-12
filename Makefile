@@ -1,4 +1,4 @@
-INCLUDES	=	-I. -I$(ROOT)usr/lib/glib-2.0/include -I$(ROOT)usr/include/glib-2.0 -I$(ROOT)usr/include
+INCLUDES	=	-I. -I$(ROOT)$(prefix)/lib/glib-2.0/include -I$(ROOT)$(prefix)/include/glib-2.0 -I$(ROOT)$(prefix)/include -I$(ROOT)$(prefix)/include/mjson
 					
 CFLAGS		=	-Os
 				
